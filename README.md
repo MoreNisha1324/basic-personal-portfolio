@@ -1,99 +1,156 @@
-# Basic Personal Portfolio
 
-A clean, minimalist single-page portfolio website built with pure HTML and CSS. Perfect for students, freelancers, and job seekers who want a professional online presence without the complexity of frameworks or build tools.
+# Nisha More - Basic Personal Portfolio
+
+A clean, modern and responsive single-page portfolio website built using HTML and CSS. This website showcases my educational background, technical skills, academic projects and professional interests.
+
+Hosted using GitHub Pages.
 
 ## ✨ Features
 
-- **Modern & Responsive Design**: Looks great on all devices (mobile, tablet, desktop)
-- **Single-Page Layout**: Smooth scrolling navigation between sections
+- **Modern & Responsive Design**: Compatible with mobile, tablet and desktop devices.
+- **Single-Page Layout**: Easy navigation between different sections.
 - **Clean Sections**:
-  - Hero/Header with name, tagline, and call-to-action
-  - About section with profile image and personal details
-  - Skills showcase with progress bars and icons
-  - Portfolio with 3 project cards
-  - Contact section with email and social links
-  - Footer with copyright and back-to-top link
-- **Accessible**: Semantic HTML, ARIA labels, keyboard navigation, focus styles
-- **SEO Optimized**: Meta tags, Open Graph support, proper heading hierarchy
-- **No Dependencies**: Pure HTML/CSS, no JavaScript frameworks or build steps
-- **GitHub Pages Ready**: Deploy instantly without configuration
+  - Hero section with name and introduction.
+  - About section with personal information.
+  - Education section with academic details.
+  - Technical skills showcase.
+  - Portfolio section with academic projects.
+  - Contact section with email and social links.
+  - Footer with copyright information.
+- **Accessible**: Semantic HTML and keyboard-friendly navigation.
+- **SEO Friendly**: Page title and meta information.
+- **No Complex Dependencies**: Built using HTML and CSS.
+- **GitHub Pages Ready**: Hosted directly from a GitHub repository.
+
+## 👩‍💻 About Me
+
+Hello! I'm **Nisha More**, an Electronics and Telecommunication Engineering student at the International Institute of Information Technology (I2IT), Pune.
+
+I have a strong interest in Software Development, Data Engineering and emerging technologies. I enjoy solving problems, learning new technologies and building practical applications.
+
+## 🎓 Education
+
+- **Degree:** Bachelor of Engineering (B.E.)
+- **Branch:** Electronics and Telecommunication Engineering
+- **College:** International Institute of Information Technology (I2IT), Pune
+- **Academic Duration:** 2023 - 2027
+
+## 🛠️ Technical Skills
+
+- **Programming Languages:** Java, Python
+- **Web Technologies:** HTML, CSS, JavaScript
+- **Database:** MySQL, PostgreSQL, SQL
+- **Data Analytics:** Pandas, Power BI
+- **Tools:** Git, GitHub, VS Code
+- **Other Technologies:** Blockchain, Web3, Cloud Computing
+
+## 🚀 Projects
+
+### 1. PoisonProof - Federated Learning Security with Blockchain
+
+- Developed a project concept combining Artificial Intelligence, Federated Learning and Blockchain.
+- Focuses on identifying suspicious model updates in collaborative machine learning.
+- Uses blockchain to maintain tamper-evident records of submitted model updates.
+- **Technologies:** Python, PyTorch, Flower, Solidity, Hardhat, Web3.
+
+### 2. E-Commerce Data Engineering Pipeline
+
+- Developed an ETL pipeline to process and transform e-commerce data.
+- Used Python and Pandas for data processing.
+- Designed a PostgreSQL database for analytical data storage.
+- Created a Power BI dashboard to visualize business insights.
+- **Technologies:** Python, Pandas, PostgreSQL, SQL, Power BI.
+
+### 3. Pharmacy Management System
+
+- Developed a pharmacy management application to manage medicine and related records.
+- Implemented database operations to store and retrieve information.
+- **Technologies:** PHP, MySQL, XAMPP.
 
 ## 📁 Folder Structure
 
-```
+```text
 basic-personal-portfolio/
-├── index.html          # Main HTML file with all sections
-├── style.css           # Complete stylesheet with CSS variables
+├── index.html          # Main HTML file with website sections
+├── style.css           # Stylesheet for website design
 ├── assets/             # Images and icons folder
-│   ├── profile.jpg     # Profile photo placeholder
-│   ├── project-1.jpg   # Project screenshot placeholder
-│   ├── project-2.jpg   # Project screenshot placeholder
-│   ├── project-3.jpg   # Project screenshot placeholder
-│   ├── og-image.jpg    # Open Graph image for social sharing
+│   ├── profile.jpg     # Profile photo
+│   ├── project-1.jpg   # PoisonProof project image
+│   ├── project-2.jpg   # E-Commerce project image
+│   ├── project-3.jpg   # Pharmacy project image
+│   ├── og-image.jpg    # Social sharing image
 │   ├── favicon.png     # Website favicon
-│   ├── html-icon.svg   # HTML5 skill icon
-│   ├── css-icon.svg    # CSS3 skill icon
+│   ├── html-icon.svg   # HTML skill icon
+│   ├── css-icon.svg    # CSS skill icon
 │   ├── js-icon.svg     # JavaScript skill icon
-│   ├── react-icon.svg  # React skill icon
-│   ├── nodejs-icon.svg # Node.js skill icon
-│   └── git-icon.svg    # Git skill icon
-├── README.md           # This file
-└── LICENSE             # MIT License
-
+│   ├── git-icon.svg    # Git skill icon
+│   └── other icons
+├── README.md           # Project documentation
+└── LICENSE             # Project license
 ```
 
 ## 🎨 Customization Guide
 
 ### Update Personal Information
 
-1. **Open `index.html`** and replace placeholder text:
-   - Line 10: Update `<meta name="author">` with your name
-   - Line 14-16: Update Open Graph meta tags
-   - Line 18: Update page title
-   - Line 33: Replace "Your Name" in nav brand
-   - Line 48: Replace hero name and tagline
-   - Lines 67-92: Update About section with your bio and details
-   - Lines 207-210: Update contact email
-   - Line 212-231: Update social media links
-   - Line 241: Update footer copyright name
+1. **Open `index.html`** and update the following:
+   - Update `<meta name="author">` with your name.
+   - Update the website title.
+   - Replace the navigation brand with "Nisha More".
+   - Update the hero section with your name and introduction.
+   - Update the About section with your personal information.
+   - Add your educational details.
+   - Update the technical skills section.
+   - Replace the sample projects with your academic projects.
+   - Update the contact email and social media links.
+   - Update the footer copyright information.
 
-2. **Update `style.css`** to change colors and fonts:
+2. **Update `style.css`** to modify colours and fonts:
+
    ```css
-   /* Around line 8-16, modify color variables */
-   --color-primary: #6366f1;        /* Main accent color */
-   --color-primary-dark: #4f46e5;   /* Darker shade for hovers */
-   --color-text: #1f2937;           /* Main text color */
-   --color-background: #ffffff;      /* Background color */
-   
-   /* Around line 28, change font family */
-   --font-family: 'Poppins', sans-serif;  /* Replace with your preferred font */
+   /* Main theme colours */
+   --color-primary: #6366f1;
+   --color-primary-dark: #4f46e5;
+   --color-text: #1f2937;
+   --color-background: #ffffff;
+
+   /* Font family */
+   --font-family: 'Poppins', sans-serif;
    ```
 
 3. **Replace Images** in the `assets/` folder:
-   - `profile.jpg`: Your professional photo (400x400px recommended)
-   - `project-1.jpg`, `project-2.jpg`, `project-3.jpg`: Your project screenshots (800x600px)
-   - `og-image.jpg`: Social sharing image (1200x630px)
-   - `favicon.png`: Your custom favicon (32x32px)
+   - `profile.jpg`: Personal photograph.
+   - `project-1.jpg`: PoisonProof project screenshot.
+   - `project-2.jpg`: E-Commerce project screenshot.
+   - `project-3.jpg`: Pharmacy Management project screenshot.
+   - `og-image.jpg`: Social sharing image.
+   - `favicon.png`: Website favicon.
 
 ### Customize Skills
 
-In `index.html` (lines 96-168), modify the skills section:
-- Replace skill names and icons
-- Adjust progress bar widths (style="width: XX%")
-- Add or remove skill items by copying the `.skill-item` div structure
+In `index.html`, modify the skills section:
+
+- Add programming languages and technologies.
+- Update skill names and icons.
+- Adjust progress bar widths.
+- Add or remove skill items as required.
 
 ### Update Portfolio Projects
 
-In `index.html` (lines 176-224):
-- Replace project images, titles, and descriptions
-- Update project links (replace `#` with actual URLs)
-- Add more projects by duplicating `.project-card` article elements
+In `index.html`, modify the project section:
+
+- Replace project titles and descriptions.
+- Update project images.
+- Add GitHub repository links.
+- Add project demonstrations where available.
+- Add more projects by duplicating the existing project card structure.
 
 ### Change Color Scheme
 
-Edit CSS variables in `style.css` (lines 8-16):
+Edit the CSS variables in `style.css`:
+
 ```css
-/* Blue/Purple theme (default) */
+/* Blue/Purple theme */
 --color-primary: #6366f1;
 
 /* Alternative themes */
@@ -105,151 +162,135 @@ Edit CSS variables in `style.css` (lines 8-16):
 
 ### Change Fonts
 
-1. Replace Google Fonts link in `index.html` (line 26)
-2. Update `--font-family` in `style.css` (line 28)
+1. Replace the Google Fonts link in `index.html`.
+2. Update `--font-family` in `style.css`.
 
 Popular alternatives:
-- `Roboto` - Modern and clean
-- `Inter` - Excellent for UI
-- `Montserrat` - Bold and striking
-- `Open Sans` - Highly readable
+
+- `Roboto` - Modern and clean.
+- `Inter` - Excellent for user interfaces.
+- `Montserrat` - Bold and professional.
+- `Open Sans` - Highly readable.
 
 ## 🚀 Deployment to GitHub Pages
 
+This project is hosted using GitHub Pages.
+
 ### Option 1: GitHub Web Interface
 
-1. Create a new repository on GitHub
-2. Upload all files (index.html, style.css, assets folder)
-3. Go to repository Settings → Pages
-4. Under "Source", select `main` branch and `/ (root)` folder
-5. Click "Save"
-6. Your site will be live at `https://yourusername.github.io/repository-name/`
+1. Create a GitHub account.
+2. Select a portfolio project from GitHub.
+3. Fork the repository into your GitHub account.
+4. Customize the HTML and CSS files.
+5. Open repository Settings.
+6. Select Pages from the sidebar.
+7. Under Source, select `Deploy from a branch`.
+8. Select the `main` branch.
+9. Select the `/(root)` folder.
+10. Click Save.
+11. Wait for GitHub Pages deployment to complete.
+12. Open the generated website URL.
 
 ### Option 2: Git Command Line
 
 ```bash
-# Initialize git repository
+# Initialize Git repository
 git init
 
-# Add all files
+# Add all project files
 git add .
 
 # Commit changes
-git commit -m "Initial commit: Personal portfolio website"
+git commit -m "Update personal portfolio website"
 
-# Add remote repository (replace with your repo URL)
-git remote add origin https://github.com/yourusername/your-repo.git
+# Add remote repository
+git remote add origin https://github.com/MoreNisha1324/basic-personal-portfolio.git
 
-# Push to GitHub
+# Push code to GitHub
 git push -u origin main
-
-# Enable GitHub Pages
-# Go to repository Settings → Pages → Select main branch → Save
 ```
+
+### Live Website
+
+**Hosted Website:**
+
+https://morenisha1324.github.io/basic-personal-portfolio/
+
+**GitHub Repository:**
+
+https://github.com/MoreNisha1324/basic-personal-portfolio
 
 ### Custom Domain (Optional)
 
-1. In repository Settings → Pages → Custom domain
-2. Enter your domain name (e.g., `www.yourname.com`)
-3. Configure DNS with your domain provider:
-   - Add CNAME record pointing to `yourusername.github.io`
+1. Open repository Settings → Pages.
+2. Find the Custom domain section.
+3. Enter your domain name.
+4. Configure DNS records with your domain provider.
 
 ## 🛠️ Testing & Validation
 
 ### HTML Validation
-Visit [W3C HTML Validator](https://validator.w3.org/) and paste your site URL
+
+Visit [W3C HTML Validator](https://validator.w3.org/) and enter the website URL.
 
 ### CSS Validation
-Visit [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and paste your site URL
+
+Visit [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and enter the website URL.
 
 ### Accessibility Check
-- Use [WAVE Web Accessibility Tool](https://wave.webaim.org/)
-- Test keyboard navigation (Tab, Enter, Shift+Tab)
-- Verify screen reader compatibility
+
+- Use the WAVE Web Accessibility Tool.
+- Test keyboard navigation.
+- Verify image alternative text.
+- Check readability and contrast.
 
 ### Responsive Testing
-Test on different devices or use browser DevTools:
-- Mobile: 375px, 414px
-- Tablet: 768px, 1024px
-- Desktop: 1280px, 1920px
+
+Test the website on different screen sizes:
+
+- Mobile: 375px, 414px.
+- Tablet: 768px, 1024px.
+- Desktop: 1280px, 1920px.
 
 ### Browser Compatibility
+
 Test on:
-- Chrome/Edge (Chromium)
-- Firefox
-- Safari
-- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📝 Design System
+- Google Chrome.
+- Microsoft Edge.
+- Mozilla Firefox.
+- Safari.
+- Mobile browsers.
 
-### Spacing Scale (8px base)
-```
---space-xs: 8px
---space-sm: 16px
---space-md: 24px
---space-lg: 32px
---space-xl: 48px
---space-2xl: 64px
---space-3xl: 96px
-```
+## 🎯 Future Improvements
 
-### Typography Scale
-```
---font-size-xs: 0.875rem (14px)
---font-size-sm: 1rem (16px)
---font-size-md: 1.125rem (18px)
---font-size-lg: 1.5rem (24px)
---font-size-xl: 2rem (32px)
---font-size-2xl: 2.5rem (40px)
---font-size-3xl: 3rem (48px)
-```
-
-### Color Variables
-All colors are defined as CSS variables in `:root` for easy customization.
-
-## 🎯 Tips for Success
-
-### Content Writing
-- Keep bio concise (2-3 short paragraphs)
-- Use action verbs in project descriptions
-- Highlight measurable achievements
-- Keep skill list focused (6-8 core skills)
-
-### Images
-- Use high-quality, professional photos
-- Optimize images before upload (use tools like TinyPNG)
-- Maintain consistent aspect ratios
-- Use descriptive filenames
-
-### SEO Best Practices
-- Update meta description with your unique value proposition
-- Use descriptive alt text for all images
-- Create meaningful page title
-- Add Open Graph image for social sharing
-
-### Performance
-- All images are already optimized
-- CSS uses modern features (Grid, Flexbox)
-- No external dependencies (except Google Fonts)
-- Minimal CSS with efficient selectors
+- Add more academic and personal projects.
+- Include GitHub links for individual projects.
+- Add a downloadable resume.
+- Improve mobile responsiveness.
+- Add animations and interactive elements.
+- Integrate a working contact form.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Free to use for personal and commercial projects with attribution.
+This project uses the license included in the original GitHub repository. Refer to the `LICENSE` file for the applicable terms.
 
 ## 🙏 Credits
 
-Created by [Hidden-Sect](https://github.com/Hidden-Sect) as part of the "Basic Package" - affordable, professional website templates.
+The initial portfolio template was obtained from the GitHub repository by [Hidden-Sect](https://github.com/Hidden-Sect) and customized for my personal portfolio and academic project demonstration.
 
-## 📧 Support
+## 📧 Contact
 
-For questions or issues:
-- Open an issue on GitHub
-- Check existing documentation
-- Review the customization guide above
+**Nisha More**
+
+Electronics and Telecommunication Engineering Student
+
+International Institute of Information Technology (I2IT), Pune.
+
+GitHub: https://github.com/MoreNisha1324
+
+Portfolio: https://morenisha1324.github.io/basic-personal-portfolio/
 
 ---
 
-**Made with ❤️ by Hidden-Sect** | [More Templates](https://github.com/Hidden-Sect)
+**Made with ❤️ by Nisha More**
